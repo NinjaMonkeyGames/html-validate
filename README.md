@@ -18,7 +18,7 @@ HTML Validate. This repository lints HTML files.
 * Alpine Linux              v3.20.0
 * Node                      v20.13.1
 * NPM                       v10.8.0
-* HTML-validate             v8.19.0
+* HTML-Validate             v8.19.1
 
 
 ## Files ##
@@ -37,3 +37,4 @@ HTML Validate. This repository lints HTML files.
 | Version No:    | Description Of Update              |
 |----------------|------------------------------------|
 | 0.0.0.0        | Base files included.               |
+| 0.0.0.1        | Updated HTML-Validate version.     |
