@@ -1,0 +1,15 @@
+{
+    "elements":                              
+    [
+      "html5"                                 
+    ],
+   
+    "extends": ["html-validate:recommended"], 
+  
+ 
+    "rules":                                  
+    {
+      "attr-spacing": "off", 
+      "input-missing-label": "error" 
+    }
+  }

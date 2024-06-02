@@ -1,0 +1,17 @@
+<!-- no label element at all -->
+<div>
+    <strong>My input field</strong>
+    <input type="text">
+
+    <textarea></textarea>
+
+    <select>
+        <option>Option</option>
+    </select>
+</div>
+
+<!-- unassociated label -->
+<div>
+    <label>My input field</label>
+    <input type="text">
+</div>

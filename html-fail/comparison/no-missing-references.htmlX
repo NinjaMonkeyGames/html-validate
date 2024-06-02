@@ -1,0 +1,3 @@
+<label for="missing-input"></label>
+<div aria-labelledby="missing-text"></div>
+<div aria-describedby="missing-text another-missing"></div>
