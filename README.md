@@ -45,6 +45,7 @@ See links below for more information about HTML-Validate and Alpine Linux.
   * **Alpine source landing page:**   <https://hub.docker.com/_/alpine>
   * **HTML-Validate website:**        <https://https://html-validate.org/>
   * **HTML-Validate GitLab:**         <https://gitlab.com/html-validate/html-validate>
+  * **NPM:**                          <https://www.npmjs.com/package/html-validate>
   * **VSC Plugin:**             <https://marketplace.visualstudio.com/items?itemName=html-validate.vscode-html-validate>
 
 ---
@@ -82,6 +83,7 @@ This project uses a sequential versioning system.
 | 0.0.0.0        | Base files included.                                                                                |
 | 0.0.0.1        | Updated HTML-Validate version.                                                                      |
 | 0.0.0.2        | Aligned project structure with other linters in the project.                                        |
+| 0.0.0.3        | Added NPM link for HTML-Validate.                                                                   |
 
 ---
 
