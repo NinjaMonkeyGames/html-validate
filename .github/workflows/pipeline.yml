@@ -17,4 +17,4 @@ jobs:                                                       # Initialise jobs
         run: cp /app/.htmlvalidate.json $GITHUB_WORKSPACE   # Copy the .htmlvalidate.json file from the container to the workspace
 
       - name: Run html-validate                             # Step name: Run HTML-Validate
-        run: npx html-validate -c=.htmlvalidate.json .      # Execute the HTML-Validate command on all HTML files in the repository
+        run: html-validate -c=.htmlvalidate.json .          # Execute the HTML-Validate command on all HTML files in the repository

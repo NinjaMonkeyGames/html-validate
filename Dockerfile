@@ -2,15 +2,12 @@
 
 # USE ALPINE LINUX O/S AS BASE IMAGE
 
-FROM alpine:latest
+FROM alpine:3.20.0
 
-# INSTALL NODE.JS
+# INSTALL NODE.JS AND HTML-VALIDATE
 
-RUN apk add --no-cache nodejs npm
-
-# INSTALL HTML-VALIDATE
-
-RUN npm install -g html-validate
+RUN apk add --no-cache nodejs=20.13.1-r0 npm=10.8.0-r0 && \
+    npm install -g html-validate@8.19.1
 
 WORKDIR /app
 
