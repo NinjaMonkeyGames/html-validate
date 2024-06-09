@@ -84,6 +84,7 @@ This project uses a sequential versioning system.
 | 0.0.0.1        | Updated HTML-Validate version.                                                                      |
 | 0.0.0.2        | Aligned project structure with other linters in the project.                                        |
 | 0.0.0.3        | Added NPM link for HTML-Validate.                                                                   |
+| 0.0.0.4        | Added avatar.png and logo.png.                                                                      |
 
 ---
 
