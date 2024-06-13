@@ -10,8 +10,8 @@ breaking the pipeline.
 
 ## Configuration information ##
 
-There is a '.htmlvalidate.json' file containing the html-validate configuration in the root of the project directory. You can
-use the following YAML line to copy this into your project directory.
+There is a '.htmlvalidate.json' file containing the html-validate configuration in the root of the project directory.
+You can use the following YAML line to copy this into your project directory.
 
 ```shell
 cp /app/.htmlvalidate $GITHUB_WORKSPACE
@@ -20,7 +20,7 @@ cp /app/.htmlvalidate $GITHUB_WORKSPACE
 Alternately you can use the following command to use your own configuration file.
 
 ```shell
-html-validate -c=.htmlvalidate.json .
+html-validate -c=my/config/path/.htmlvalidate.json .
 ```
 
 See links below for more information about HTML-Validate and Alpine Linux.
@@ -64,7 +64,8 @@ See links below for more information about HTML-Validate and Alpine Linux.
 | File Or Folder Name:                  | Files | Description Of File Or Folder Contents                               |
 |---------------------------------------|-------|----------------------------------------------------------------------|
 | > html-fail                           |   49  | Contains examples of every possible docker error.                    |
-| .htmlvalidate.json                    |   1   | Contains html-validate rule configuration.                           |
+| .htmlvalidate.json                    |   1   | Contains HTML-Validate rule configuration.                           |
+| > .git                                |  175  | Contains git configuration files.                                    |
 | > .github > workflows > pipeline.yml  |   1   | Lints all docker files in docker.                                    |
 | dockerfile                            |   1   | Information on how to build docker.                                  |
 | README.md                             |   1   | Contains information about the project.                              |
